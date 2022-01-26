@@ -7,12 +7,11 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 // create express server.
-const password = '8gCtQitnNigtzFzJ';
-const DB =
-  'mongodb+srv://tutorial-api:8gCtQitnNigtzFzJ@databaseproject.nwjez.mongodb.net/tutorialApiDB?retryWrites=true&w=majority';
+
+// const DB =
+//   'mongodb+srv://tutorial-api:8gCtQitnNigtzFzJ@databaseproject.nwjez.mongodb.net/tutorialApiDB?retryWrites=true&w=majority';
 app.use(cors());
 app.use(express.json());
-
 //middle were.
 
 app.listen(port, () => {
